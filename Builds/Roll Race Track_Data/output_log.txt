@@ -1,0 +1,75 @@
+Initialize engine version: 5.6.7f1 (e80cc3114ac1)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8146 MB
+    Driver:   31.0.14043.7000
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.209 seconds
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\T3rcer Parcial\Roll Race Track\Builds\Roll Race Track_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.239700 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 1988 -> priority: 1 
+  Thread -> id: 24f8 -> priority: 1 
+  Thread -> id: 15b8 -> priority: 1 
+  Thread -> id: 364c -> priority: 1 
+  Thread -> id: d00 -> priority: 1 
+  Thread -> id: 2664 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.116800 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 367.
+Total: 0.174100 ms (FindLiveObjects: 0.014900 ms CreateObjectMapping: 0.006600 ms MarkObjects: 0.147700 ms  DeleteObjects: 0.004300 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.276200 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 304.
+Total: 0.110700 ms (FindLiveObjects: 0.008800 ms CreateObjectMapping: 0.004900 ms MarkObjects: 0.093300 ms  DeleteObjects: 0.003400 ms)
+
+IndexOutOfRangeException: Array index is out of range.
+  at MenuController.UnPause () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.293000 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 958.
+Total: 0.207800 ms (FindLiveObjects: 0.023400 ms CreateObjectMapping: 0.009400 ms MarkObjects: 0.156900 ms  DeleteObjects: 0.017700 ms)
+
